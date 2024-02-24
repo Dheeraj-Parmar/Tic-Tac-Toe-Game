@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: rgb(238, 130, 238);
+    display: grid;
+    place-items: center;
+}
+
+button {
+    cursor: grab;
+}
+
+.box {
+    height: 55vh;
+    width: 60vh;
+    background-color: purple;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    box-shadow: 5px 10px 15px rgb(0, 0, 0);
+    transition: 0.7s ease-in-out;
+}
+
+.buttonBox {
+    height: 15vh;
+    width: 15vh;
+    border: none;
+    border-radius: 10px;
+    font-size: 10vh;
+    background-color: white;
+    color: black;
+    margin: 2px;
+    box-shadow: 5px 10px 15px rgb(0, 0, 0);
+}
+
+.winner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.winner button {
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+.winner h2 {
+    transition: 1s ease-in-out;
+}
+
+.hide {
+    display: none;
+}
+
+.resetGame {
+    padding: 5px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.83);
+    color: white;
+}
+
+.container h1 {
+    border: 3px solid black;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 5px 10px 15px rgb(0, 0, 0, 0.6);
+}
